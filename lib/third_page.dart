@@ -24,6 +24,7 @@ class ThirdPage extends StatelessWidget {
           );
         },
       ),
+      // TODO: por este SimpleBuilder se genera la excepción
       body: SimpleBuilder<TestController>(
         allowRebuild: false,
         builder: (controller) {
